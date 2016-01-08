@@ -32,7 +32,8 @@ defmodule DeeJay.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:postgrex, "~> 0.10.0"},{:timex, "~> 0.19.4"}
+      {:mix_test_watch, "~> 0.2",     only: :dev},
+      {:postgrex,       "~> 0.10.0"}
     ]
   end
 end
