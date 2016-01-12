@@ -42,11 +42,11 @@ I hope to eventually keep a list of features and bugs [in the issue tracker][2].
 
 ## License
 
-"sip" and the sip logo (once it is created, duh!) are copyright (c) 2015 by Daryl Richter (ngzax).
+"deejay" and the deejay logo (once it is created, duh!) are copyright (c) 2016 by Daryl Richter (@ngzax).
 
-sip source code is released under Apache 2 License.
+deejay source code is released under the Revised BSD License.
 
-Check [NOTICE](NOTICE) and [LICENSE](LICENSE) files for more information.
+Check the [LICENSE](LICENSE) files for more information.
 
 
 [1]: https://github.com/ngzax/deejay/issues
