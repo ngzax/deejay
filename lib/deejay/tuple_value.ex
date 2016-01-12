@@ -1,5 +1,9 @@
-defmodule TupleValue do
+defmodule DeeJay.TupleValue do
 
+  @moduledoc """
+  
+  """
+  
   @typedoc """
     a tuple value (tuple for short) over those types—t is a set of n ordered triples of the form <Ai,Ti,vi>, 
     where 
@@ -9,8 +13,8 @@ defmodule TupleValue do
   """
   @type tuple_value :: {atom, any}
   
-  @spec new(atom, any) :: tuple_value
-  def new(atom, any) do
+  @spec tuple_value(atom, any) :: tuple_value
+  def tuple_value(atom, any) do
     {atom, any}
   end
 

@@ -1,5 +1,9 @@
-defmodule Relation do
+defmodule DeeJay.Relation do
 
+  @moduledoc """
+  
+  """
+  
   @typedoc """
     A relation value (relation for short) consists of a heading and a body, where:
       * The heading of r is The complete set of attributes of r. 
@@ -9,8 +13,8 @@ defmodule Relation do
   
   @type relation :: [heading: list]
   
-  # @spec new(atom, any) :: relation
-  def new(list) do
+  # @spec relation(atom, any) :: relation
+  def relation(list) do
     [heading: list]
   end
 
