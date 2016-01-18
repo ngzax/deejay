@@ -1,5 +1,5 @@
 defmodule DeeJayTupleValueTest do
-  use ExUnit.Case
+  use ExSpec, async: true
   doctest DeeJay.TupleValue
   
   import DeeJay.TupleValue
@@ -24,11 +24,26 @@ defmodule DeeJayTupleValueTest do
     assert value({:s_id, :integer, 1}) == 1
   end
   
-  test "The type is inferred from the value" do
-    assert type(tuple_value(:s_id, 1))       == :integer
-    assert type(tuple_value(:s_id, 1.1))     == :float
-    assert type(tuple_value(:s_id, "Magic")) == :string
-    assert type(tuple_value(:s_id, true))    == :boolean
+  describe "The type is inferred from the value" do
+    it "recognizes an integer" do
+      assert type(tuple_value(:s_id, 1)) == :integer
+    end
+    
+    it "recognizes a float" do
+      assert type(tuple_value(:s_id, 1.1)) == :float
+    end
+    
+    it "recognizes a String" do
+      assert type(tuple_value(:s_id, "Magic")) == :string
+    end
+    
+    it "recognizes a Boolean" do
+      assert type(tuple_value(:s_id, true)) == :boolean
+    end
+    
+    it "returns :any for a type it doesn't recognize" do
+      assert type(tuple_value(:s_id, {1, 2, 3})) == :any
+    end
   end
   
 end

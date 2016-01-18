@@ -1,5 +1,5 @@
 defmodule DeeJayRelationTest do
-  use ExUnit.Case
+  use ExSpec, async: true
   doctest DeeJay.Relation
   
   import DeeJay.Relation 

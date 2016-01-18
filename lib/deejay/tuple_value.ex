@@ -40,6 +40,7 @@ defmodule DeeJay.TupleValue do
       is_boolean(value)   -> :boolean
       is_float(value)     -> :float
       is_integer(value)   -> :integer
+      true                -> :any
     end
   end
 
