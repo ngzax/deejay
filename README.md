@@ -21,18 +21,20 @@ TBD
 
 I (will eventually) appreciate contributions to deejay.
 
-This project does not have a "Code of Conduct." 
-If you need a written document telling you how to behave, this is not the project for you.
+Everyone involved in the **deejay** project needs to understand and respect our Code of Conduct, 
+which has been shamelessly borrowed in its entirety from [urbit][3]: 
 
-If you can hack and don't care at all about anything or than can the other people contributing hack too, 
-please read the information in our [CONTRIBUTING](CONTRIBUTING.md) guide for more information.
+>> "don't be rude."
 
-I hope to eventually keep a list of features and bugs [in the issue tracker][2].
+If you can code and abide by the simple Code of Conduct, 
+please read the information in our [CONTRIBUTING](CONTRIBUTING.md) guide for more information once it is available.
+
+I also hope to eventually keep a list of features and bugs [in the issue tracker][1].
 
 
 ## Important links
 
-* [Issue tracker][2]
+* [Issue tracker][1]
 
 
 ### Other links
@@ -51,5 +53,4 @@ Check the [LICENSE](LICENSE) files for more information.
 
 [1]: https://github.com/ngzax/deejay/issues
 [2]: http://sip-lang.us
-
-
+[3]: https://github.com/urbit/urbit
