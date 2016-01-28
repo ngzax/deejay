@@ -24,7 +24,7 @@ I (will eventually) appreciate contributions to deejay.
 Everyone involved in the **deejay** project needs to understand and respect our Code of Conduct, 
 which has been shamelessly borrowed in its entirety from [urbit][3]: 
 
->> "don't be rude."
+> "don't be rude."
 
 If you can code and abide by the simple Code of Conduct, 
 please read the information in our [CONTRIBUTING](CONTRIBUTING.md) guide for more information once it is available.
